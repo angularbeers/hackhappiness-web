@@ -1,0 +1,14 @@
+@import '../../bower_components_min/bourbon/_bourbon';
+
+// COLORS
+
+$yellow : #EFE752;
+
+// COMMON DEPENDENCES
+@import '../../features/common/styles/_header';
+@import '../../features/common/styles/_footer';
+
+// FEATURES DEPENDENCES
+#home {
+  @import '../../features/home/styles/_home';
+}

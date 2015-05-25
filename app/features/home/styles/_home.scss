@@ -1,0 +1,38 @@
+[ng-view] {
+  background: $yellow;
+  min-height: 500px;
+}
+
+h2.title {
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.event {
+  margin-bottom: 20px;
+  overflow: auto;
+  .content {
+    float: left;
+    @include calc(width, '100% - 100px');
+
+    h3.title {
+      margin: 0;
+      font-weight: 300;
+    }
+    span.location {
+      font-style: italic;
+    }
+
+    p.description {
+      margin-top: 5px;
+      line-height: 20px;
+    }
+  }
+
+  .date {
+    width: 100px;
+    float: left;
+  }
+}

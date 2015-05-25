@@ -1,0 +1,5 @@
+bower_components
+bower_components_min
+**/.sass-cache/*
+.css
+.idea

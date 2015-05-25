@@ -1,0 +1,26 @@
+{
+  "event": [
+    {
+      "title": "La Sagrada Familia",
+      "date": "June 6th",
+      "location": "Carrer de Mallorca, 401",
+      "url": "http://www.webvisionsevent.com/barcelona/",
+      "description": "It must be done, and you already know why. Our only tip is to buy your ticket in advance on-line and print out a pass (most hotels will let you email the pass to their front desk). You’ll have to choose a window to visit, but you’ll breeze past those who decided to buy their tickets at the door. Think of it as the Gaudí fast pass."
+    },
+    {
+      "title": "Picasso Museum",
+      "date": "June 8th",
+      "location": "Montcada 15-23",
+      "url": "http://www.webvisionsevent.com/barcelona/",
+      "description": "While his famous piece “Guernica” is actually in the Reina Sofia Museum in Madrid, this museum has a wonderful Picasso collection as well as spectacular traveling exhibitions."
+    },
+    {
+      "title": "Stroll Las Ramblas",
+      "date": "June 28th",
+      "location": "",
+      "url": "http://www.webvisionsevent.com/barcelona/",
+      "description": "Everyone says you have to go, so then you must go to say you went. But hold onto your wallet/purse, and for goodness sake, don’t act like a tourist. Pro tip: Don’t eat in any restaurants on the Ramblas (no matter what the charming restaurateur tells you). Instead, walk the Ramblas for the experience and then divert down one of the side streets and try a restaurant off the beaten path. You’ll probably pay less money and enjoy a better meal."
+    }
+  ],
+  "total": 3
+}
