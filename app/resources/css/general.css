@@ -1,0 +1,104 @@
+/* line 1, ../../features/common/styles/_header.scss */
+.navbar {
+  background: black;
+  min-height: 40px;
+  height: 40px;
+  margin-bottom: 0;
+}
+/* line 9, ../../features/common/styles/_header.scss */
+.navbar ul.navbar-nav li a {
+  padding: 10px 15px;
+  color: white;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-weight: 200;
+}
+/* line 16, ../../features/common/styles/_header.scss */
+.navbar ul.navbar-nav li a:hover {
+  background: white;
+  color: black;
+}
+/* line 24, ../../features/common/styles/_header.scss */
+.navbar .navbar-header a {
+  padding: 10px 15px;
+  height: auto;
+  color: white;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/* line 30, ../../features/common/styles/_header.scss */
+.navbar .navbar-header a:hover {
+  color: #EFE752;
+}
+
+/* line 1, ../../features/common/styles/_footer.scss */
+footer {
+  background: black;
+}
+/* line 4, ../../features/common/styles/_footer.scss */
+footer .sponsored h3 {
+  color: white;
+  margin-bottom: 0;
+  font-weight: 100;
+}
+/* line 9, ../../features/common/styles/_footer.scss */
+footer .sponsored ul {
+  padding: 0;
+}
+/* line 11, ../../features/common/styles/_footer.scss */
+footer .sponsored ul li {
+  display: inline-block;
+}
+/* line 17, ../../features/common/styles/_footer.scss */
+footer .logo {
+  height: 50px;
+  width: 250px;
+  background-image: url(../img/hackhappiness.png);
+  margin-bottom: 20px;
+}
+
+/* line 1, ../../features/home/styles/_home.scss */
+#home [ng-view] {
+  background: #EFE752;
+  min-height: 500px;
+}
+/* line 6, ../../features/home/styles/_home.scss */
+#home h2.title {
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+/* line 13, ../../features/home/styles/_home.scss */
+#home .event {
+  margin-bottom: 20px;
+  overflow: auto;
+}
+/* line 16, ../../features/home/styles/_home.scss */
+#home .event .content {
+  float: left;
+  width: -webkit-calc(100% - 100px);
+  width: calc(100% - 100px);
+}
+/* line 20, ../../features/home/styles/_home.scss */
+#home .event .content h3.title {
+  margin: 0;
+  font-weight: 300;
+}
+/* line 24, ../../features/home/styles/_home.scss */
+#home .event .content span.location {
+  font-style: italic;
+}
+/* line 28, ../../features/home/styles/_home.scss */
+#home .event .content p.description {
+  margin-top: 5px;
+  line-height: 20px;
+}
+/* line 34, ../../features/home/styles/_home.scss */
+#home .event .date {
+  width: 100px;
+  float: left;
+}

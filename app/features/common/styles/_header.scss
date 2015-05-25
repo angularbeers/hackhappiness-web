@@ -1,0 +1,35 @@
+.navbar {
+  background: black;
+  min-height: 40px;
+  height: 40px;
+  margin-bottom: 0;
+
+  ul.navbar-nav {
+    li {
+      a {
+        padding: 10px 15px;
+        color: white;
+        @include transition(all .2s);
+        cursor: pointer;
+        font-weight: 200;
+
+        &:hover {
+          background: white;
+          color: black;
+        }
+      }
+    }
+  }
+  .navbar-header {
+    a {
+      padding: 10px 15px;
+      height: auto;
+      color: white;
+      @include transition(all .2s);
+
+      &:hover {
+        color: $yellow;
+      }
+    }
+  }
+}

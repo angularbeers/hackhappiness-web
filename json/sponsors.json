@@ -1,0 +1,30 @@
+{
+  "sponsor": [
+    {
+      "image": "betahaus.png",
+      "alt": "Betahaus",
+      "url": "http://www.webvisionsevent.com/barcelona/"
+    },
+    {
+      "image": "webvisions.png",
+      "alt": "WebVisions",
+      "url": "http://www.webvisionsevent.com/barcelona/"
+    },
+    {
+      "image": "angularjsbeers.png",
+      "alt": "angularJSBeers",
+      "url": "http://www.webvisionsevent.com/barcelona/"
+    },
+    {
+      "image": "geek2team.png",
+      "alt": "Geek2Team",
+      "url": "http://www.webvisionsevent.com/barcelona/"
+    },
+    {
+      "image": "estrelladamm.png",
+      "alt": "Estrella Damm",
+      "url": "http://www.webvisionsevent.com/barcelona/"
+    }
+  ],
+  "total": 5
+}
