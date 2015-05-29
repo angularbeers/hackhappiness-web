@@ -11,7 +11,8 @@
         color: white;
         @include transition(all .2s);
         cursor: pointer;
-        font-weight: 200;
+        font-weight: 100;
+        letter-spacing: 2px;
 
         &:hover {
           background: white;
@@ -26,6 +27,7 @@
       height: auto;
       color: white;
       @include transition(all .2s);
+      font-family: hooge;
 
       &:hover {
         color: $yellow;

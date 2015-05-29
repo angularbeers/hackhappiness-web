@@ -17,6 +17,32 @@
                         onError(errMsg);
                     });
                 };
+
+                this.loadHone = function (onSuccess, onError) {
+                    $http({
+                        url: utils.getURL('home'),
+                        method: 'GET',
+                        timeout: utils.webServicesTimeout
+                    }).success(function (data) {
+                        onSuccess(data);
+
+                    }).error(function (errMsg) {
+                        onError(errMsg);
+                    });
+                };
+
+                this.people = function (onSuccess, onError) {
+                    $http({
+                        url: utils.getURL('people'),
+                        method: 'GET',
+                        timeout: utils.webServicesTimeout
+                    }).success(function (data) {
+                        onSuccess(data);
+
+                    }).error(function (errMsg) {
+                        onError(errMsg);
+                    });
+                };
             });
     });
 }());

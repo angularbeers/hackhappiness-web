@@ -2,11 +2,36 @@
 
 // COLORS
 
-$yellow : #EFE752;
+$yellow : #F2E841;
+$black : #0B0C0A;
+
+@font-face {
+  font-family: 'hooge';
+  src: url('../fonts/hoog0655-webfont.eot');
+  src: url('../fonts/hoog0655-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/hoog0655-webfont.woff2') format('woff2'),
+  url('../fonts/hoog0655-webfont.woff') format('woff'),
+  url('../fonts/hoog0655-webfont.ttf') format('truetype'),
+  url('../fonts/hoog0655-webfont.svg#hooge_06_55regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.font-smoothing {
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
 
 // COMMON DEPENDENCES
 @import '../../features/common/styles/_header';
 @import '../../features/common/styles/_footer';
+
+body{
+  margin-top: 40px;
+}
 
 // FEATURES DEPENDENCES
 #home {

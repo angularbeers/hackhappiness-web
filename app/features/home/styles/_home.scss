@@ -3,11 +3,53 @@
   min-height: 500px;
 }
 
+h1.logo {
+  font-size: 16vw;
+  font-family: hooge;
+  color: black;
+}
+
 h2.title {
   font-size: 50px;
   font-weight: 100;
   margin-bottom: 20px;
   letter-spacing: 2px;
+  &.fix {
+    margin: 20px -15px;
+  }
+}
+
+.container {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  .text-face {
+    margin-top: 40px;
+    padding-right: 40px;
+    font-size: 2vw;
+    line-height: 2.7vw;
+    padding-top: 8%;
+    @media (max-width: 600px) {
+      font-size: 18px;
+      line-height: 22px;
+      padding-right: 15px;
+      text-align: justify;
+      margin: 20px 0 30px;
+    }
+  }
+  .smile {
+    width: 100%;
+  }
+  .sub-head-text {
+    @media (max-width: 600px) {
+      text-align: justify;
+    }
+  }
+  .sub-head-image {
+    border: 1px solid;
+    height: 100%;
+    margin-top: 25px;
+  }
 }
 
 .event {
@@ -34,5 +76,32 @@ h2.title {
   .date {
     width: 100px;
     float: left;
+  }
+}
+
+.space {
+  margin-top: 30px;
+}
+
+.people {
+  padding-bottom: 30px;
+  h3 {
+    font-weight: 100;
+    text-align: center;
+  }
+  .person{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  span {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .avatar {
+    background-color: black;
+    border-radius: 100%;
+    .avatar-space {
+      padding: 50%;
+    }
   }
 }

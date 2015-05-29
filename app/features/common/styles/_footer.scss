@@ -1,5 +1,5 @@
 footer {
-  background: black;
+  background: $black;
   .sponsored {
     h3 {
       color: white;
@@ -15,9 +15,11 @@ footer {
   }
 
   .logo {
-    height: 50px;
     width: 250px;
-    background-image: url(../img/hackhappiness.png);
+    font-family: hooge;
     margin-bottom: 20px;
+    font-size: 25px;
+    color: $yellow;
+    @extend .font-smoothing;
   }
 }
