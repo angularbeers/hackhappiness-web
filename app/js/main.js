@@ -10,6 +10,8 @@
 			angularWebStorage: '../bower_components_min/angular-webstorage/angular-webstorage',
 			angularSanitize: '../bower_components_min/angular-sanitize/angular-sanitize',
 			jquery: '../bower_components_min/jquery/jquery',
+			videogular: '../bower_components_min/videogular/videogular',
+			angularYT: '../bower_components_min/angular-youtube-mb/angular-youtube-embed',
 			utils: 'utils/utils'
 		},
 		shim: {
@@ -29,6 +31,9 @@
 				deps: ['angular']
 			},
 			'angularSanitize': {
+				deps: ['angular']
+			},
+			'angularYT': {
 				deps: ['angular']
 			},
 			'utils': {
@@ -52,10 +57,11 @@
 			'angularWebStorage',
 			'routes',
 			'jquery',
+			'angularYT',
 			'app',
 			'utils'
 		],
-		function(angular, angularAnimate, angularSanitize, angularRoute, angularResource, angularWebStorage, routes, jquery, app, utils) {
+		function(angular, angularAnimate, angularSanitize, angularRoute, angularResource, angularWebStorage, routes, jquery, angularYT, app, utils) {
 
 			var $html = angular.element(document.getElementsByTagName('html')[0]);
 

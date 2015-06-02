@@ -5,6 +5,8 @@ var constants = {
 
 var url_app = {
     events: '/json/events.json',
+    home: '/json/home.json',
+    people: '/json/people.json',
     sponsor: '/json/sponsors.json'
 };
 

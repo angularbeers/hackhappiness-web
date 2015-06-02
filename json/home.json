@@ -1,0 +1,18 @@
+{
+  "landing": "Happiness is important for our relationships, work and community…when we feel happier, we’re more open to collaboration, contribution and innovation. What if we could HACK HAPPINESS? How could we change the world and make it a better place.",
+  "subHead": {
+    "icon" : "happy-app.png",
+    "title": "The Happy App",
+    "text": "What if we could use a mobile app to track how happy we are? What if we could see where other people were happy? The Happy App lets us live our lives intention and help to reinforce the positive things that we do...helping someone, creating something, appreciating beauty and the world, and more."
+  },
+  "people": {
+    "title": "Who’s Behind This?",
+    "text": "Meet the instigators behind the Hack Happiness experiment."
+  },
+  "beginning": {
+    "title": "Where Did it all Begin?",
+    "video_url": "https://www.youtube.com/watch?v=AkijuPYwwUY",
+    "text_top": "In early 2015, the team from WebVisions wanted to collaborate with communities around the world to change how we share ideas and work together. In many ways, traditional business models are flawed because they encourage winning over succeeding as a community, which build more sustainable and positive experiences?",
+    "text_bottom": "Brad sorry I deleted something I think some comment! how can i take it back? <br>  Not sure? Maybe there’s version control?    It was about make it simple with CSS ? If you have the design just send it, We will be working on the website design, not live, just local and deploy it when all ready. Also we have AngularBeers where we can include a brief"
+  }
+}

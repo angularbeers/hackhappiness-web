@@ -1,0 +1,15 @@
+{
+  "person": [
+    {
+      "name": "David Pich",
+      "twitter": "@davidpichanes",
+      "avatar": "david_pich.jpg"
+    },
+    {
+      "name": "Brad Smith",
+      "twitter": "@webvisions",
+      "avatar": "brad_smith.jpg"
+    }
+  ],
+  "total": 2
+}
