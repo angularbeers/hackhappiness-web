@@ -12,7 +12,6 @@
   "beginning": {
     "title": "Where Did it all Begin?",
     "video_url": "https://www.youtube.com/watch?v=AkijuPYwwUY",
-    "text_top": "In early 2015, the team from WebVisions wanted to collaborate with communities around the world to change how we share ideas and work together. In many ways, traditional business models are flawed because they encourage winning over succeeding as a community, which build more sustainable and positive experiences?",
-    "text_bottom": "Brad sorry I deleted something I think some comment! how can i take it back? <br>  Not sure? Maybe there’s version control?    It was about make it simple with CSS ? If you have the design just send it, We will be working on the website design, not live, just local and deploy it when all ready. Also we have AngularBeers where we can include a brief"
+    "text": "In early 2015, the team from WebVisions wanted to collaborate with communities around the world to change how we share ideas and work together. In many ways, traditional business models are flawed because they encourage winning over succeeding as a community, which build more sustainable and positive experiences?",
   }
 }

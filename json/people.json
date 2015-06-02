@@ -2,12 +2,12 @@
   "person": [
     {
       "name": "David Pich",
-      "twitter": "@davidpichanes",
+      "twitter": "davidpichanes",
       "avatar": "david_pich.jpg"
     },
     {
       "name": "Brad Smith",
-      "twitter": "@webvisions",
+      "twitter": "webvisions",
       "avatar": "brad_smith.jpg"
     }
   ],

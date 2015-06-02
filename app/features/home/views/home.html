@@ -45,19 +45,17 @@
         </div>
         <h3>{{::person.name}}</h3>
         <a class="btn btn-info" target="_blank" ng-href="https://twitter.com/{{::person.twitter}}"><i
-                class="fa fa-twitter"></i> {{::person.twitter}}</a>
+                class="fa fa-twitter"></i> @{{::person.twitter}}</a>
     </div>
 </div>
 
 
 <div class="container begin begin_zone">
     <h2 class="title">{{::homeText.beginning.title}}</h2>
-    <span>{{::homeText.beginning.text_top}}</span>
+    <span>{{::homeText.beginning.text}}</span>
 
     <div class="embed-responsive embed-responsive-16by9">
         <youtube-video class="embed-responsive-item" video-id="webvisionVideo"></youtube-video>
     </div>
-
-    <span ng-bind-html="homeText.beginning.text_bottom"></span>
 
 </div>
