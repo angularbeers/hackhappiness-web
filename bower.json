@@ -20,7 +20,8 @@
     "requirejs": "",
     "bootstrap": "",
     "jquery": "",
-    "bourbon": "3.2.3"
+    "bourbon": "3.2.3",
+    "angular-youtube-mb": "~1.0.2"
   },
   "resolutions": {
     "angular": "~1.4.x"
@@ -28,8 +29,8 @@
   "install": {
     "path": "app/bower_components_min",
     "sources": {
-      "bourbon":  "bower_components/bourbon/dist/**",
-      "bootstrap":  "bower_components/bootstrap/dist/**"
+      "bourbon": "bower_components/bourbon/dist/**",
+      "bootstrap": "bower_components/bootstrap/dist/**"
     }
   },
   "directory": {

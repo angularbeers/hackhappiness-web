@@ -3,6 +3,8 @@
         return ['$scope', 'homeSV',
             function ($scope, homeSV) {
 
+                $scope.webvisionVideo = 'AkijuPYwwUY';
+
                 homeSV.events(
                     function onSuccess(data) {
                         $scope.events = data;

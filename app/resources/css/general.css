@@ -29,7 +29,7 @@
   transition: all 0.2s;
   cursor: pointer;
   font-weight: 100;
-  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 /* line 17, ../../features/common/styles/_header.scss */
 .navbar ul.navbar-nav li a:hover {
@@ -71,11 +71,12 @@ footer .sponsored ul li {
 }
 /* line 17, ../../features/common/styles/_footer.scss */
 footer .logo {
-  width: 250px;
   font-family: hooge;
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 49px;
   color: #F2E841;
+  text-align: center;
+  padding: 70px 0;
 }
 
 /* line 32, ../sass/general.scss */
@@ -141,69 +142,124 @@ body {
 }
 /* line 48, ../../features/home/styles/_home.scss */
 #home .container .sub-head-image {
-  border: 1px solid;
   height: 100%;
   margin-top: 25px;
 }
-/* line 55, ../../features/home/styles/_home.scss */
+/* line 51, ../../features/home/styles/_home.scss */
+#home .container .sub-head-image img {
+  width: 100%;
+}
+/* line 57, ../../features/home/styles/_home.scss */
 #home .event {
   margin-bottom: 20px;
   overflow: auto;
 }
-/* line 58, ../../features/home/styles/_home.scss */
+/* line 60, ../../features/home/styles/_home.scss */
 #home .event .content {
   float: left;
   width: -webkit-calc(100% - 100px);
   width: calc(100% - 100px);
 }
-/* line 62, ../../features/home/styles/_home.scss */
+/* line 64, ../../features/home/styles/_home.scss */
 #home .event .content h3.title {
   margin: 0;
   font-weight: 300;
 }
-/* line 66, ../../features/home/styles/_home.scss */
+/* line 68, ../../features/home/styles/_home.scss */
 #home .event .content span.location {
   font-style: italic;
 }
-/* line 70, ../../features/home/styles/_home.scss */
+/* line 72, ../../features/home/styles/_home.scss */
 #home .event .content p.description {
   margin-top: 5px;
   line-height: 20px;
 }
-/* line 76, ../../features/home/styles/_home.scss */
+/* line 77, ../../features/home/styles/_home.scss */
+#home .event .content a {
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+/* line 84, ../../features/home/styles/_home.scss */
 #home .event .date {
   width: 100px;
   float: left;
 }
-/* line 82, ../../features/home/styles/_home.scss */
+/* line 90, ../../features/home/styles/_home.scss */
 #home .space {
   margin-top: 30px;
 }
-/* line 86, ../../features/home/styles/_home.scss */
+/* line 94, ../../features/home/styles/_home.scss */
 #home .people {
   padding-bottom: 30px;
 }
-/* line 88, ../../features/home/styles/_home.scss */
+/* line 96, ../../features/home/styles/_home.scss */
 #home .people h3 {
   font-weight: 100;
   text-align: center;
 }
-/* line 92, ../../features/home/styles/_home.scss */
+/* line 100, ../../features/home/styles/_home.scss */
 #home .people .person {
   text-align: center;
   margin-bottom: 40px;
 }
-/* line 96, ../../features/home/styles/_home.scss */
+/* line 104, ../../features/home/styles/_home.scss */
 #home .people span {
   display: block;
   margin-bottom: 40px;
 }
-/* line 100, ../../features/home/styles/_home.scss */
+/* line 108, ../../features/home/styles/_home.scss */
 #home .people .avatar {
-  background-color: black;
   border-radius: 100%;
+  background-size: cover;
 }
-/* line 103, ../../features/home/styles/_home.scss */
+/* line 111, ../../features/home/styles/_home.scss */
 #home .people .avatar .avatar-space {
   padding: 50%;
+}
+/* line 119, ../../features/home/styles/_home.scss */
+#home .sponsored li img {
+  height: 100px;
+}
+/* line 125, ../../features/home/styles/_home.scss */
+#home .begin {
+  padding-bottom: 50px;
+}
+/* line 127, ../../features/home/styles/_home.scss */
+#home .begin span {
+  display: block;
+}
+/* line 130, ../../features/home/styles/_home.scss */
+#home .begin .embed-responsive {
+  margin: 30px 0;
+}
+
+/* line 41, ../sass/general.scss */
+*:not(.fa) {
+  font-family: lato, sans-serif;
+}
+
+/* line 47, ../sass/general.scss */
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* line 55, ../sass/general.scss */
+.embed-responsive.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+
+/* line 59, ../sass/general.scss */
+.embed-responsive-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }

@@ -11,7 +11,7 @@
 </div>
 <div class="container space about_zone">
     <div class="col-md-3 col-sm-3 sub-head-image">
-
+        <img ng-src="./statics/images/{{::homeText.subHead.icon}}">
     </div>
     <div class="col-md-9 col-sm-9">
         <h2 class="title fix">{{::homeText.subHead.title}}</h2>
@@ -30,18 +30,34 @@
             <span class="location">{{::event.location}}</span>
 
             <p class="description">{{::event.description}}</p>
+            <a ng-href="{{::event.url}}" target="_blank">{{::event.url_title}}</a>
         </div>
     </div>
 </div>
 
 <div class="container space people people_zone">
-    <h1 class="title">{{::homeText.people.title}}</h1>
+    <h2 class="title">{{::homeText.people.title}}</h2>
     <span>{{::homeText.people.text}}</span>
-    <div class="col-md-3 col-sm-3 person" ng-repeat="person in people.person">
-        <div class="avatar">
+
+    <div class="col-md-3 col-sm-3 person col-sx-3" ng-repeat="person in people.person">
+        <div class="avatar" style="background-image:url(./statics/images/people/{{::person.avatar}})">
             <div class="avatar-space"></div>
         </div>
         <h3>{{::person.name}}</h3>
-        <a class="btn btn-info" target="_blank" ng-href="https://twitter.com/{{::person.twitter}}"><i class="fa fa-twitter"></i> {{::person.twitter}}</a>
+        <a class="btn btn-info" target="_blank" ng-href="https://twitter.com/{{::person.twitter}}"><i
+                class="fa fa-twitter"></i> {{::person.twitter}}</a>
     </div>
+</div>
+
+
+<div class="container begin begin_zone">
+    <h2 class="title">{{::homeText.beginning.title}}</h2>
+    <span>{{::homeText.beginning.text_top}}</span>
+
+    <div class="embed-responsive embed-responsive-16by9">
+        <youtube-video class="embed-responsive-item" video-id="webvisionVideo"></youtube-video>
+    </div>
+
+    <span ng-bind-html="homeText.beginning.text_bottom"></span>
+
 </div>

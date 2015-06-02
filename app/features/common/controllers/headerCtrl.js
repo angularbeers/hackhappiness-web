@@ -5,7 +5,7 @@
 
                 $scope.goToSection = function (section) {
                     $('html, body').animate({
-                        scrollTop: $("." + section).offset().top
+                        scrollTop: $("." + section).offset().top - 55
                     }, 500);
                 };
 

@@ -11,6 +11,7 @@
         '../features/home/services/homeSV'
     ], function (angular, filters, controllers) {
         var app = angular.module('hackhappiness', [
+            'youtube-embed',
             'ngRoute',
             'ngAnimate',
             'ngResource',

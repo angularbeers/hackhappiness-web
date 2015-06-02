@@ -2,8 +2,8 @@
 
 // COLORS
 
-$yellow : #F2E841;
-$black : #0B0C0A;
+$yellow: #F2E841;
+$black: #0B0C0A;
 
 @font-face {
   font-family: 'hooge';
@@ -29,11 +29,39 @@ $black : #0B0C0A;
 @import '../../features/common/styles/_header';
 @import '../../features/common/styles/_footer';
 
-body{
+body {
   margin-top: 40px;
 }
 
 // FEATURES DEPENDENCES
 #home {
   @import '../../features/home/styles/_home';
+}
+
+*:not(.fa) {
+  font-family: lato, sans-serif;
+}
+
+// RESPONSIVE VIDEOS
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.embed-responsive.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+
+.embed-responsive-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }

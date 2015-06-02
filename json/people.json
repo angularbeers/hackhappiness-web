@@ -1,20 +1,15 @@
 {
   "person": [
     {
-      "name": "David",
-      "twitter": "@David",
-      "avatar": "La Sagrada Familia"
+      "name": "David Pich",
+      "twitter": "@davidpichanes",
+      "avatar": "david_pich.jpg"
     },
     {
-      "name": "David2",
-      "twitter": "@David",
-      "avatar": "La Sagrada Familia"
-    },
-    {
-      "name": "David3",
-      "twitter": "@David",
-      "avatar": "La Sagrada Familia"
+      "name": "Brad Smith",
+      "twitter": "@webvisions",
+      "avatar": "brad_smith.jpg"
     }
   ],
-  "total": 3
+  "total": 2
 }

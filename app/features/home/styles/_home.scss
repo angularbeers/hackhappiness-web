@@ -46,9 +46,11 @@ h2.title {
     }
   }
   .sub-head-image {
-    border: 1px solid;
     height: 100%;
     margin-top: 25px;
+    img {
+      width: 100%;
+    }
   }
 }
 
@@ -71,6 +73,12 @@ h2.title {
       margin-top: 5px;
       line-height: 20px;
     }
+
+    a {
+      font-weight: 500;
+      color: black;
+      text-decoration: none;
+    }
   }
 
   .date {
@@ -89,7 +97,7 @@ h2.title {
     font-weight: 100;
     text-align: center;
   }
-  .person{
+  .person {
     text-align: center;
     margin-bottom: 40px;
   }
@@ -98,10 +106,28 @@ h2.title {
     margin-bottom: 40px;
   }
   .avatar {
-    background-color: black;
     border-radius: 100%;
+    background-size: cover;
     .avatar-space {
       padding: 50%;
     }
+  }
+}
+
+.sponsored {
+  li {
+    img {
+      height: 100px;
+    }
+  }
+}
+
+.begin {
+  padding-bottom: 50px;
+  span {
+    display: block;
+  }
+  .embed-responsive {
+    margin: 30px 0;
   }
 }
