@@ -9,15 +9,6 @@
         <img src="./statics/images/logo_face.png" class="smile">
     </div>
 </div>
-<div class="container space about_zone">
-    <div class="col-md-3 col-sm-3 sub-head-image">
-        <img ng-src="./statics/images/{{::homeText.subHead.icon}}">
-    </div>
-    <div class="col-md-9 col-sm-9">
-        <h2 class="title fix">{{::homeText.subHead.title}}</h2>
-        <span>{{::homeText.subHead.text}}</span>
-    </div>
-</div>
 <div class="container space events_zone">
     <h2 class="title">Events</h2>
 
@@ -34,6 +25,31 @@
         </div>
     </div>
 </div>
+<div class="container space about_zone">
+    <div class="col-md-3 col-sm-3 sub-head-image">
+        <img ng-src="./statics/images/{{::homeText.subHead.icon}}">
+    </div>
+    <div class="col-md-9 col-sm-9">
+        <h2 class="title fix">{{::homeText.subHead.title}}</h2>
+        <span>{{::homeText.subHead.text}}</span>
+    </div>
+</div>
+
+
+<div class="container space people happyTeam_zone">
+    <h2 class="title">{{::homeText.team.title}}</h2>
+    <span>{{::homeText.team.text}}</span>
+
+    <div class="col-md-3 col-sm-3 person col-sx-3" ng-repeat="person in people.team">
+        <div class="avatar" style="background-image:url(./statics/images/people/{{::person.avatar}})">
+            <div class="avatar-space"></div>
+        </div>
+        <h3>{{::person.name}}</h3>
+        <a class="btn btn-info" target="_blank" ng-href="https://twitter.com/{{::person.twitter}}"><i
+                class="fa fa-twitter"></i> @{{::person.twitter}}</a>
+    </div>
+</div>
+
 
 <div class="container space people people_zone">
     <h2 class="title">{{::homeText.people.title}}</h2>
@@ -48,7 +64,6 @@
                 class="fa fa-twitter"></i> @{{::person.twitter}}</a>
     </div>
 </div>
-
 
 <div class="container begin begin_zone">
     <h2 class="title">{{::homeText.beginning.title}}</h2>

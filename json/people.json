@@ -11,5 +11,27 @@
       "avatar": "brad_smith.jpg"
     }
   ],
+  "team": [
+    {
+      "name": "Jorge del Casar",
+      "twitter": "jorgecasar",
+      "avatar": "jorge_del_casar.jpg"
+    },
+    {
+      "name": "David Pich",
+      "twitter": "elecay",
+      "avatar": "david_pich.jpg"
+    },
+    {
+      "name": "Ginés Ortiz",
+      "twitter": "ginesortiz",
+      "avatar": "gines_ortiz.jpg"
+    },
+    {
+      "name": "Sebastian Rajo",
+      "twitter": "davidpichcanes",
+      "avatar": "sebastian_rajo.jpg"
+    }
+  ],
   "total": 2
 }

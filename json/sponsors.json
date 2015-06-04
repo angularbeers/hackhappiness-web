@@ -3,7 +3,7 @@
     {
       "image": "betahaus.png",
       "alt": "Betahaus",
-      "url": "http://www.webvisionsevent.com/barcelona/"
+      "url": "http://www.betahaus.es/"
     },
     {
       "image": "webvisions.png",
@@ -13,17 +13,17 @@
     {
       "image": "angularjsbeers.png",
       "alt": "angularJSBeers",
-      "url": "http://www.webvisionsevent.com/barcelona/"
+      "url": "http://angularbeers.com/"
     },
     {
       "image": "geek2team.png",
       "alt": "Geek2Team",
-      "url": "http://www.webvisionsevent.com/barcelona/"
+      "url": "http://geeks2team.es/"
     },
     {
       "image": "estrelladamm.png",
       "alt": "Estrella Damm",
-      "url": "http://www.webvisionsevent.com/barcelona/"
+      "url": "http://estrelladamm.com/cat/"
     }
   ],
   "total": 5

@@ -4,7 +4,9 @@
             <h3>Sponsored by: </h3>
             <ul>
                 <li ng-repeat="sponsor in sponsors.sponsor">
-                    <img ng-src="{{sponsorIMG(sponsor)}}" alt="{{sponsor.alt}}"/>
+                    <a ng-href="{{sponsor.url}}" target="_blank">
+                        <img ng-src="{{sponsorIMG(sponsor)}}" alt="{{sponsor.alt}}"/>
+                    </a>
                 </li>
             </ul>
         </div>

@@ -61,15 +61,40 @@ footer .sponsored h3 {
   margin-bottom: 0;
   font-weight: 100;
 }
-/* line 9, ../../features/common/styles/_footer.scss */
+@media (max-width: 600px) {
+  /* line 4, ../../features/common/styles/_footer.scss */
+  footer .sponsored h3 {
+    text-align: center;
+  }
+}
+/* line 12, ../../features/common/styles/_footer.scss */
 footer .sponsored ul {
   padding: 0;
 }
-/* line 11, ../../features/common/styles/_footer.scss */
+/* line 14, ../../features/common/styles/_footer.scss */
 footer .sponsored ul li {
   display: inline-block;
 }
-/* line 17, ../../features/common/styles/_footer.scss */
+@media (max-width: 600px) {
+  /* line 14, ../../features/common/styles/_footer.scss */
+  footer .sponsored ul li {
+    text-align: center;
+    display: block;
+  }
+}
+/* line 21, ../../features/common/styles/_footer.scss */
+footer .sponsored ul li img {
+  height: 100px;
+}
+@media (max-width: 600px) {
+  /* line 21, ../../features/common/styles/_footer.scss */
+  footer .sponsored ul li img {
+    max-width: 140px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+}
+/* line 33, ../../features/common/styles/_footer.scss */
 footer .logo {
   font-family: hooge;
   margin-bottom: 20px;
@@ -77,6 +102,12 @@ footer .logo {
   color: #F2E841;
   text-align: center;
   padding: 70px 0;
+}
+@media (max-width: 600px) {
+  /* line 33, ../../features/common/styles/_footer.scss */
+  footer .logo {
+    font-size: 27px;
+  }
 }
 
 /* line 32, ../sass/general.scss */
@@ -102,17 +133,26 @@ body {
   margin-bottom: 20px;
   letter-spacing: 2px;
 }
-/* line 17, ../../features/home/styles/_home.scss */
+@media (max-width: 600px) {
+  /* line 12, ../../features/home/styles/_home.scss */
+  #home h2.title {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    font-weight: 300;
+  }
+}
+/* line 23, ../../features/home/styles/_home.scss */
 #home h2.title.fix {
   margin: 20px -15px;
 }
-/* line 22, ../../features/home/styles/_home.scss */
+/* line 28, ../../features/home/styles/_home.scss */
 #home .container {
   font-weight: 300;
   font-size: 16px;
   line-height: 22px;
 }
-/* line 26, ../../features/home/styles/_home.scss */
+/* line 32, ../../features/home/styles/_home.scss */
 #home .container .text-face {
   margin-top: 40px;
   padding-right: 40px;
@@ -121,7 +161,7 @@ body {
   padding-top: 8%;
 }
 @media (max-width: 600px) {
-  /* line 26, ../../features/home/styles/_home.scss */
+  /* line 32, ../../features/home/styles/_home.scss */
   #home .container .text-face {
     font-size: 18px;
     line-height: 22px;
@@ -130,106 +170,102 @@ body {
     margin: 20px 0 30px;
   }
 }
-/* line 40, ../../features/home/styles/_home.scss */
+/* line 46, ../../features/home/styles/_home.scss */
 #home .container .smile {
   width: 100%;
 }
 @media (max-width: 600px) {
-  /* line 43, ../../features/home/styles/_home.scss */
+  /* line 49, ../../features/home/styles/_home.scss */
   #home .container .sub-head-text {
     text-align: justify;
   }
 }
-/* line 48, ../../features/home/styles/_home.scss */
+/* line 54, ../../features/home/styles/_home.scss */
 #home .container .sub-head-image {
   height: 100%;
   margin-top: 25px;
 }
-/* line 51, ../../features/home/styles/_home.scss */
+/* line 57, ../../features/home/styles/_home.scss */
 #home .container .sub-head-image img {
   width: 100%;
 }
-/* line 57, ../../features/home/styles/_home.scss */
+/* line 63, ../../features/home/styles/_home.scss */
 #home .event {
   margin-bottom: 20px;
   overflow: auto;
 }
-/* line 60, ../../features/home/styles/_home.scss */
+/* line 66, ../../features/home/styles/_home.scss */
 #home .event .content {
   float: left;
   width: -webkit-calc(100% - 100px);
   width: calc(100% - 100px);
 }
-/* line 64, ../../features/home/styles/_home.scss */
+/* line 70, ../../features/home/styles/_home.scss */
 #home .event .content h3.title {
   margin: 0;
   font-weight: 300;
 }
-/* line 68, ../../features/home/styles/_home.scss */
+/* line 74, ../../features/home/styles/_home.scss */
 #home .event .content span.location {
   font-style: italic;
 }
-/* line 72, ../../features/home/styles/_home.scss */
+/* line 78, ../../features/home/styles/_home.scss */
 #home .event .content p.description {
   margin-top: 5px;
   line-height: 20px;
 }
-/* line 77, ../../features/home/styles/_home.scss */
+/* line 83, ../../features/home/styles/_home.scss */
 #home .event .content a {
   font-weight: 500;
   color: black;
   text-decoration: none;
 }
-/* line 84, ../../features/home/styles/_home.scss */
+/* line 90, ../../features/home/styles/_home.scss */
 #home .event .date {
   width: 100px;
   float: left;
 }
-/* line 90, ../../features/home/styles/_home.scss */
+/* line 96, ../../features/home/styles/_home.scss */
 #home .space {
   margin-top: 30px;
 }
-/* line 94, ../../features/home/styles/_home.scss */
+/* line 100, ../../features/home/styles/_home.scss */
 #home .people {
   padding-bottom: 30px;
 }
-/* line 96, ../../features/home/styles/_home.scss */
+/* line 102, ../../features/home/styles/_home.scss */
 #home .people h3 {
   font-weight: 100;
   text-align: center;
 }
-/* line 100, ../../features/home/styles/_home.scss */
+/* line 106, ../../features/home/styles/_home.scss */
 #home .people .person {
   text-align: center;
   margin-bottom: 40px;
 }
-/* line 104, ../../features/home/styles/_home.scss */
+/* line 110, ../../features/home/styles/_home.scss */
 #home .people span {
   display: block;
   margin-bottom: 40px;
 }
-/* line 108, ../../features/home/styles/_home.scss */
+/* line 114, ../../features/home/styles/_home.scss */
 #home .people .avatar {
   border-radius: 100%;
   background-size: cover;
 }
-/* line 111, ../../features/home/styles/_home.scss */
+/* line 117, ../../features/home/styles/_home.scss */
 #home .people .avatar .avatar-space {
   padding: 50%;
 }
-/* line 119, ../../features/home/styles/_home.scss */
-#home .sponsored li img {
-  height: 100px;
-}
-/* line 125, ../../features/home/styles/_home.scss */
+/* line 122, ../../features/home/styles/_home.scss */
 #home .begin {
   padding-bottom: 50px;
 }
-/* line 127, ../../features/home/styles/_home.scss */
+/* line 124, ../../features/home/styles/_home.scss */
 #home .begin span {
   display: block;
 }
-/* line 130, ../../features/home/styles/_home.scss */
+/* line 127, ../../features/home/styles/_home.scss */
 #home .begin .embed-responsive {
   margin: 30px 0;
 }
