@@ -7,6 +7,9 @@ h1.logo {
   font-size: 16vw;
   font-family: hooge;
   color: black;
+  @media (min-width: 1024px) {
+    font-size: 155px;
+  }
 }
 
 h2.title {
@@ -42,9 +45,17 @@ h2.title {
       text-align: justify;
       margin: 20px 0 30px;
     }
+    @media (min-width: 1024px) {
+      font-size: 25px;
+      line-height: 35px;
+    }
   }
   .smile {
     width: 100%;
+    @media (min-width: 1024px) {
+      width: 80%;
+      margin-top: 15%;
+    }
   }
   .sub-head-text {
     @media (max-width: 600px) {
@@ -114,11 +125,17 @@ h2.title {
   .avatar {
     border-radius: 100%;
     background-size: cover;
+    @include transition(all 0.3s);
+    @include transform(scale(.9));
+    &:hover {
+      @include transform(scale(1));
+    }
     .avatar-space {
       padding: 50%;
     }
   }
 }
+
 .begin {
   padding-bottom: 50px;
   span {
@@ -126,5 +143,17 @@ h2.title {
   }
   .embed-responsive {
     margin: 30px 0;
+  }
+}
+
+.about_zone {
+  img {
+    @include transition(all 0.3s);
+    @include transform(scale(.9));
+  }
+  &:hover {
+    img {
+      @include transform(scale(1));
+    }
   }
 }
