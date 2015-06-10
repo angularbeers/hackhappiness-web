@@ -21,7 +21,10 @@
             <span class="location">{{::event.location}}</span>
 
             <p class="description">{{::event.description}}</p>
-            <a ng-href="{{::event.url}}" target="_blank">{{::event.url_title}}</a>
+            <a ng-href="{{::event.url}}" title="{{::event.url_title}}" target="_blank">
+                <img ng-src="./statics/images/rsvp_{{rsvp ? '2' : '1'}}.png"
+                     ng-mouseover="rsvp = true" ng-mouseleave="rsvp = false" ng-init="rsvp = false">
+            </a>
         </div>
     </div>
 </div>
@@ -40,12 +43,13 @@
     <h2 class="title">{{::homeText.team.title}}</h2>
     <span>{{::homeText.team.text}}</span>
 
-    <div class="col-md-3 col-sm-3 person col-sx-3" ng-repeat="person in people.team">
+    <div class="col-md-2 col-sm-2 person col-sx-2" ng-repeat="person in people.team">
         <div class="avatar" style="background-image:url(./statics/images/people/{{::person.avatar}})">
             <div class="avatar-space"></div>
         </div>
         <h3>{{::person.name}}</h3>
-        <a class="btn btn-info" target="_blank" ng-href="https://twitter.com/{{::person.twitter}}"><i
+        <a class="btn btn-info" target="_blank" ng-if="person.twitter"
+           ng-href="https://twitter.com/{{::person.twitter}}"><i
                 class="fa fa-twitter"></i> @{{::person.twitter}}</a>
     </div>
 </div>

@@ -260,17 +260,29 @@ body {
   font-weight: 100;
   text-align: center;
 }
-/* line 117, ../../features/home/styles/_home.scss */
+@media (max-width: 1025px) and (min-width: 1024px) {
+  /* line 113, ../../features/home/styles/_home.scss */
+  #home .people h3 {
+    font-size: 18px;
+  }
+}
+/* line 120, ../../features/home/styles/_home.scss */
 #home .people .person {
   text-align: center;
   margin-bottom: 40px;
 }
-/* line 121, ../../features/home/styles/_home.scss */
+@media (max-width: 1025px) and (min-width: 1024px) {
+  /* line 123, ../../features/home/styles/_home.scss */
+  #home .people .person .btn-info {
+    font-size: 12px;
+  }
+}
+/* line 129, ../../features/home/styles/_home.scss */
 #home .people span {
   display: block;
   margin-bottom: 40px;
 }
-/* line 125, ../../features/home/styles/_home.scss */
+/* line 133, ../../features/home/styles/_home.scss */
 #home .people .avatar {
   border-radius: 100%;
   background-size: cover;
@@ -283,7 +295,7 @@ body {
   -o-transform: scale(0.9);
   transform: scale(0.9);
 }
-/* line 130, ../../features/home/styles/_home.scss */
+/* line 138, ../../features/home/styles/_home.scss */
 #home .people .avatar:hover {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -291,23 +303,23 @@ body {
   -o-transform: scale(1);
   transform: scale(1);
 }
-/* line 133, ../../features/home/styles/_home.scss */
+/* line 141, ../../features/home/styles/_home.scss */
 #home .people .avatar .avatar-space {
   padding: 50%;
 }
-/* line 139, ../../features/home/styles/_home.scss */
+/* line 147, ../../features/home/styles/_home.scss */
 #home .begin {
   padding-bottom: 50px;
 }
-/* line 141, ../../features/home/styles/_home.scss */
+/* line 149, ../../features/home/styles/_home.scss */
 #home .begin span {
   display: block;
 }
-/* line 144, ../../features/home/styles/_home.scss */
+/* line 152, ../../features/home/styles/_home.scss */
 #home .begin .embed-responsive {
   margin: 30px 0;
 }
-/* line 150, ../../features/home/styles/_home.scss */
+/* line 158, ../../features/home/styles/_home.scss */
 #home .about_zone img {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -318,7 +330,7 @@ body {
   -o-transform: scale(0.9);
   transform: scale(0.9);
 }
-/* line 155, ../../features/home/styles/_home.scss */
+/* line 163, ../../features/home/styles/_home.scss */
 #home .about_zone:hover img {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
